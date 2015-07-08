@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@mipmap/screen_a">
+    android:background="@mipmap/screen">
 
     <LinearLayout
         android:orientation="vertical"
@@ -147,11 +147,15 @@
                     <Button
                         android:id="@+id/btnToContact"
                         android:layout_width="167dp"
-                        android:layout_height="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
                         android:layout_gravity="center"
                         android:layout_marginBottom="3dp"
                         android:layout_marginTop="15dp"
                         android:text="Contact Us"
+                        android:background="@color/btn2"
+                        android:textColor="@color/round"
+                        android:textSize="20dp"
                         android:layout_weight="1" />
 
                 </LinearLayout>

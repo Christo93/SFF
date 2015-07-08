@@ -12,7 +12,7 @@
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:contentDescription="@string/desc_list_item_icon"
-        android:src="@drawable/ic_launcher"
+        android:src="@mipmap/ic_launcher"
         android:layout_centerVertical="true" />
 
     <TextView
@@ -20,8 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_toRightOf="@id/icon"
-        android:minHeight="?android:attr/listPreferredItemHeightSmall"
-        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+
         android:textColor="@color/list_item_title"
         android:gravity="center_vertical"
         android:paddingRight="40dp"/>

@@ -20,10 +20,16 @@
         <color name="midnight">#2B1B17</color>
         <color name="saffron">#FBB917</color>
         <color name="navyblue">#000080</color>
-        <color name="titles">#FBB917</color>
+        <color name="titles">#8C001A</color>
         <color name="button_enabled">#656BA4</color>
-        <color name="text">#C2DFFF</color>
+        <color name="text">#0C090A</color>
          <color name="clickable">#1589FF</color>
          <color name="drawer_normal">#2B3856</color>
+
+    <color name="OLD_titles">#FBB917</color>
+    <color name="round">#BCC6CC</color>
+    <color name="btn2">#8C001A</color>
+
+
        
 </resources>

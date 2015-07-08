@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@mipmap/screen_a">
+    android:background="@mipmap/screen">
 
     <LinearLayout
         android:orientation="vertical"
@@ -89,6 +89,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:text="Details: "
+                        android:layout_marginBottom="10dp"
                         android:textStyle="bold"
                         android:textColor="@color/titles"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -112,12 +113,15 @@
 
                     <Button
                         android:id="@+id/btnSendEmail"
-                        style="@style/button"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
                         android:layout_weight="1"
+                        android:background="@color/btn2"
+                        android:textColor="@color/round"
+                        android:textSize="20dp"
+                        android:padding="15dp"
                         android:text="Send" />
 
                 </LinearLayout>

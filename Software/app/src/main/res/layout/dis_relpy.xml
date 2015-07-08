@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/screen_a"
+    android:background="@mipmap/screen"
     android:orientation="vertical" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:paddingBottom="20dp"
         android:orientation="vertical" >
 
         <TextView
@@ -30,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:layout_marginTop="3dp" >
 
         <TextView
@@ -57,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:layout_marginTop="3dp" >
 
         <TextView
@@ -85,7 +86,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:layout_marginTop="3dp" >
 
         <TextView
@@ -106,7 +107,7 @@
         android:layout_margin="5dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="3dp"
-        android:background="@drawable/customboarder" >
+      >
 
         <EditText
             android:id="@+id/rply"
@@ -115,6 +116,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:hint="Reply Here"
+            style="@style/Round_text"
             android:inputType="textMultiLine"
             />
     </LinearLayout>
@@ -128,27 +130,29 @@
 
         <Button
             android:id="@+id/btnBackToViewReply"
-            style="@style/button"
+            android:background="@color/btn2"
+            android:textColor="@color/round"
+            android:textSize="20dp"
+            android:padding="15dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="30dp"
+            android:layout_margin="5dp"
+
             android:layout_weight="1"
-            android:layout_x="1dp"
-            android:layout_y="-8dp"
             android:text="Back" />
 
         <Button
             android:id="@+id/btnSubmitReply"
-            style="@style/button"
+            android:background="@color/btn2"
+            android:textColor="@color/round"
+            android:textSize="20dp"
+            android:padding="15dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="15dp"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_x="238dp"
-            android:layout_y="-8dp"
             android:text="Submit" />
+
     </LinearLayout>
 
 </LinearLayout>
