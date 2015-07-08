@@ -1,0 +1,273 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/backscreen"
+  
+    tools:context="com.example.softwarefoundation.dashboardactivities.UserProfile" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!-- View Title Label -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="2dp" 
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_x="86dp"
+                android:layout_y="27dp"
+                android:text="Member Profile"
+                android:textColor="@color/titles"
+                android:textSize="30dip"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView01"
+            style="@style/PHS.TextViewTopic"
+            android:text="Basic Details"
+            android:textColor="@color/titles" />
+
+        <!-- android:textAppearance="?android:attr/textAppearanceSmall " -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="First Name:"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/fname"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Last Name:"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/lname"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                 android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Email:" 
+                android:textStyle="bold"
+				android:textColor="@color/titles"/>
+
+            <TextView
+                android:id="@+id/email"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text="" 
+                 android:textColor="@color/text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Gender:"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/gender"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                 android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Town:"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/town"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                 android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Country:"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/country"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                 android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Post Code"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/postcode"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                 android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                style="@style/PHS.TextViewResultFirst"
+                android:layout_weight="65"
+                android:text="Mobile"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <TextView
+                android:id="@+id/mobile"
+                style="@style/PHS.TextViewResultSecond"
+                android:layout_weight="35"
+                android:text=""
+                 android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <!-- Register Button -->
+
+            <Button
+                android:id="@+id/btnEdit"
+                style="@style/PHS.Button"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_weight="50"
+                android:background="@drawable/button"
+                android:text="Edit Details" 
+                android:textColor="@color/pearl"/>
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                style="@style/PHS.Button"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="50"
+                android:background="@drawable/button"
+                android:text="Change Password" 
+                android:textColor="@color/pearl"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

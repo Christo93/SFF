@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#566D7E</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#736AFF</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="ShamrockGreen">#347C17</color>
+    <color name="midnight_blue">#151B54</color>
+    <color name="darkslate_blue">#2B3856</color>
+    <color name="ocean_blue">#2B65EC</color>
+    <color name="charcoal">#34282C</color>
+    <color name="smokeygrey">#726E6D</color>
+     <color name="night">#0C090A</color>
+      <color name="metelic_silver">#BCC6CC</color>
+       <color name="pearl">#FDEEF4</color>
+        <color name="periwinkle">#E9CFEC</color>
+        
+        <color name="midnight">#2B1B17</color>
+        <color name="saffron">#FBB917</color>
+        <color name="navyblue">#000080</color>
+        <color name="titles">#FBB917</color>
+        <color name="button_enabled">#656BA4</color>
+        <color name="text">#C2DFFF</color>
+         <color name="clickable">#1589FF</color>
+         <color name="drawer_normal">#2B3856</color>
+       
+</resources>

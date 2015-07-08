@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backscreen"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/memberTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_x="81dp"
+            android:layout_y="27dp"
+            android:text="@string/membership_detail"
+            android:textColor="@color/titles"
+            android:textSize="30dip"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp" >
+
+        <TextView
+            style="@style/TextViewFirst"
+            android:layout_width="77dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="65"
+            android:layout_x="14dp"
+            android:layout_y="94dp"
+            android:text="SFF ID:" 
+            android:textColor="@color/titles"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/sffid"
+            style="@style/TextViewResult"
+            android:layout_width="215dp"
+            android:layout_weight="35"
+            android:layout_x="102dp"
+            android:layout_y="91dp" 
+            android:textColor="@color/text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/TextViewFirst"
+                android:layout_width="64dp"
+                android:layout_marginLeft="10dp"
+                android:layout_x="15dp"
+                android:layout_y="157dp"
+                android:text="Role:"
+                android:textColor="@color/titles" 
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/role"
+                style="@style/TextViewResult"
+                android:layout_width="236dp"
+                android:layout_weight="35"
+                android:layout_x="82dp"
+                android:layout_y="151dp"
+                android:textColor="@color/text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/expiry"
+            style="@style/TextViewFirst"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Membership Expiry Date:" 
+            android:textColor="@color/titles"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/expirydate"
+            style="@style/TextViewResult"
+            android:layout_width="102dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.09" 
+            android:textColor="@color/text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/renewal"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_x="72dp"
+            android:layout_y="270dp"
+            android:background="@drawable/button"
+            android:text="Apply For Renewal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/pastMembers"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_x="68dp"
+            android:layout_y="329dp"
+            android:background="@drawable/button"
+            android:text="View Past Members" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/presentMembers"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_x="69dp"
+            android:layout_y="386dp"
+            android:background="@drawable/button"
+            android:text="View Present Members" />
+    </LinearLayout>
+
+</LinearLayout>

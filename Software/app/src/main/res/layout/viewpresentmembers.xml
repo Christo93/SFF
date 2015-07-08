@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/screen_a"
+  
+    tools:context="com.example.softwarefoundation.dashboardactivities.Members" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!-- View Title Label -->
+        
+        <Spinner
+            android:id="@+id/members"
+            android:layout_width="204dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="6dp"
+            android:layout_y="102dp"
+            android:background="@color/text" />
+      
+        <!-- android:textAppearance="?android:attr/textAppearanceSmall " -->
+
+        
+
+        <ListView
+            android:id="@+id/MembersList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/titles" >
+        </ListView>
+        
+    </LinearLayout>
+
+    
+</FrameLayout>

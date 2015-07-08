@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backscreen"
+  
+    tools:context="com.example.softwarefoundation.dashboardactivities.Events" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!-- View Title Label -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dis_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_x="102dp"
+                android:layout_y="19dp"
+                android:text="Discussion"
+                android:textStyle="bold"
+				android:textColor="@color/titles"
+                android:textSize="30dip" />
+
+        </LinearLayout>
+
+        <!-- android:textAppearance="?android:attr/textAppearanceSmall " -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/DiscussionList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:divider="@color/titles"
+            android:dividerHeight="3dp" >
+        </ListView>
+    </LinearLayout>
+    
+</FrameLayout>

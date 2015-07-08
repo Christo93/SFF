@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backscreen" >
+
+        <TextView
+            android:id="@+id/editProf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_x="96dp"
+            android:layout_y="30dp"
+            android:text="Edit Profile"
+            android:textSize="30dip"
+            android:textStyle="bold"
+            android:textColor="@color/titles" />
+
+        <TextView
+            style="@style/TextViewEdit"
+            android:layout_width="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="110dp"
+            android:textColor="@color/titles"
+            android:text="First Name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditFName"
+            style="@style/Round_text"
+            android:layout_width="wrap_content"
+            android:layout_x="89dp"
+            android:layout_y="100dp"
+            android:singleLine="true"
+            android:hint="Enter First Name" 
+            android:textColor="@color/midnight"
+            />
+
+        <EditText
+            android:id="@+id/EditLastName"
+            style="@style/Round_text"
+            android:layout_width="wrap_content"
+            android:layout_x="89dp"
+            android:layout_y="158dp"
+            android:textColor="@color/midnight"
+            android:ems="10"
+            android:singleLine="true"
+            android:hint="Enter Last Name"
+            />
+
+        <EditText
+            android:id="@+id/EditEmail"
+            style="@style/Round_text"
+            android:layout_width="wrap_content"
+            android:layout_x="89dp"
+            android:layout_y="230dp"
+            android:ems="10"
+            android:textColor="@color/midnight"
+            android:singleLine="true"
+            android:hint="@string/enter_email" 
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/EditTown"
+            style="@style/Round_text"
+            android:layout_width="wrap_content"
+            android:layout_x="89dp"
+            android:layout_y="291dp"
+            android:singleLine="true"
+            android:textColor="@color/midnight"
+            android:hint="@string/town"
+             />
+
+        <EditText
+            android:id="@+id/EditCountry"
+            style="@style/Round_text"
+            android:layout_width="wrap_content"
+            android:layout_x="89dp"
+            android:layout_y="349dp"
+            android:ems="10"
+            android:singleLine="true"
+            android:textColor="@color/midnight"
+            android:hint="@string/country"
+            />
+
+        <EditText
+            android:id="@+id/EditPostal"
+            style="@style/Round_text"
+            android:layout_width="wrap_content"
+            android:layout_x="89dp"
+            android:layout_y="418dp"
+            android:ems="10"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textColor="@color/midnight"
+            android:hint="Enter Post Code" />
+
+        <TextView
+            style="@style/TextViewEdit"
+            android:layout_x="16dp"
+            android:layout_y="364dp"
+            android:text="Country" 
+            android:textColor="@color/titles"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/TextViewEdit"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="305dp"
+            android:text="Town"
+            android:textStyle="bold"
+			android:textColor="@color/titles" />
+
+        <TextView
+            style="@style/TextViewEdit"
+            android:layout_x="10dp"
+            android:layout_y="240dp"
+            android:text="Email"
+            android:textStyle="bold"
+			android:textColor="@color/titles"             />
+            <!-- Country TextField -->
+
+            <TextView
+                style="@style/TextViewEdit"
+                android:layout_x="18dp"
+                android:layout_y="492dp"
+                android:text="Mobile"
+                android:textStyle="bold"
+				android:textColor="@color/titles" />
+
+            <EditText
+                android:id="@+id/EditMobile"
+                style="@style/Round_text"
+                android:layout_width="wrap_content"
+                android:layout_x="89dp"
+                android:layout_y="482dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="@color/midnight"
+                android:hint="Enter Phone Number"
+                android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/button"
+            android:layout_width="78dp"
+            android:layout_marginLeft="10dp"
+            android:layout_x="31dp"
+            android:layout_y="570dp"
+            android:background="@drawable/button"
+            android:text="@string/btn_back" />
+
+        <Button
+            android:id="@+id/btnSavePassword"
+            style="@style/button"
+            android:layout_width="78dp"
+            android:layout_marginRight="10dp"
+            android:layout_x="226dp"
+            android:layout_y="570dp"
+            android:background="@drawable/button"
+            android:text="Save" />
+
+        <TextView
+            style="@style/TextViewEdit"
+            android:layout_width="68dp"
+            android:layout_x="13dp"
+            android:layout_y="162dp"
+            android:textStyle="bold"
+			android:textColor="@color/titles"
+            android:text="Last Name" />
+
+        <TextView
+            style="@style/TextViewEdit"
+            android:layout_width="64dp"
+            android:layout_x="16dp"
+            android:layout_y="420dp"
+            android:text="Post Code"
+            android:textStyle="bold"
+			android:textColor="@color/titles" />
+
+        <TextView
+            android:id="@+id/error"
+            style="@style/PHS.TextError"
+            android:layout_x="8dp"
+            android:layout_y="523dp" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
+
+</ScrollView>
